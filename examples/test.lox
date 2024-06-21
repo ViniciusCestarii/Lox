@@ -1,0 +1,6 @@
+variavel = "literal";
+numero_variavel = 4;
+
+test = 1 + 2;
+
+print(test)
