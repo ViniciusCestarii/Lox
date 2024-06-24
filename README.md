@@ -5,7 +5,7 @@ execute file
 java lox.Lox ./examples/test.lox
 ```
 
-prompt a see what the compiler return (for now it only the scan tokens, so it's not a compiler)
+prompt and see what the compiler return (for now it only the scan tokens, so it's not a compiler)
 ```
 java lox.Lox
 ```
