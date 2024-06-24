@@ -1,5 +1,10 @@
 ## Commands
 
+generate Abstract Syntax Tree (AST)
+```bash
+java tool.GenerateAst lox
+```
+
 execute file
 ```bash
 java lox.Lox ./examples/test.lox
