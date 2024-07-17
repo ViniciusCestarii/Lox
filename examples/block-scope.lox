@@ -17,3 +17,9 @@ var c = "global c";
 print a; // global a
 print b; // global b
 print c; // global c
+
+var a = 1;
+{
+  var a = a + 2;
+  print a; // 3
+}
