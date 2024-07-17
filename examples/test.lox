@@ -1,5 +1,8 @@
-variavel = "literal";
-numero_variavel = 4;
+var variavel = "literal";
+var numero_variavel = 4;
+
+print "variavel literal: " + variavel;
+print "numero_variavel: " + numero_variavel;
 
 /*
 im ignored
@@ -9,6 +12,17 @@ im ignored
  test
 */
 
-test = 1 + 2;
+var global = "global";
+var local = "localGlobal";
+
+{
+  var local = "local";
+  print global;
+  print local; // local
+}
+
+var test = 1;
+
+test = test + 2;
 // will print 3
-print(test)
+print test;
