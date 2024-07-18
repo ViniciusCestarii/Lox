@@ -1,4 +1,8 @@
-if (true) 
+print "hi" or 2; // short-circuits and return "hi".
+print nil or "yes"; // "yes".
+
+
+if (true and true) 
   print "true"; 
 else 
   print "false";
