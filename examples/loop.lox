@@ -1,0 +1,20 @@
+var i = 10;
+
+while (i > 0) {
+  print i;
+  i = i - 1;
+  if (i <= 5) {
+    i = 0;
+  }
+}
+
+// print the first 21 elements in the Fibonacci sequence:
+print "Fibonacci sequence:";
+var a = 0;
+var temp;
+
+for (var b = 1; a < 10000; b = temp + b) {
+  print a;
+  temp = a;
+  a = b;
+}
