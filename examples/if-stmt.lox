@@ -1,0 +1,11 @@
+if (true) 
+  print "true"; 
+else 
+  print "false";
+
+if (true)
+    print "its true 1";
+  if (false)
+    print "its true 2";
+  else
+    print "its false 2";
