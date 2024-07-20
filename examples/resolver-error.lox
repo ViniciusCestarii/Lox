@@ -1,0 +1,13 @@
+/*
+// Top-level return
+return; // [line 3] Error at 'return': Can't return from top-level code.
+*/
+
+// Variable assignment to itself in a block scope.
+/*
+var a = a; // valid
+
+{
+  var a = a; // [line 10] Error at 'a': Can't read local variable in its own initializer.
+}
+*/

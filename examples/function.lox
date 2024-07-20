@@ -53,3 +53,18 @@ fun makeCounter() {
 var counter = makeCounter();
 counter(); // "1".
 counter(); // "2".
+
+print "Persistent environments test:";
+
+// A block is not necessarily all the same scope.
+
+var a = "global";
+{
+  fun showA() {
+    print a;
+  }
+
+  showA(); // "global"
+  var a = "block";
+  showA(); // should print "global"
+}
