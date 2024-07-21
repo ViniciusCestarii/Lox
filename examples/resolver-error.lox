@@ -11,3 +11,8 @@ var a = a; // valid
   var a = a; // [line 10] Error at 'a': Can't read local variable in its own initializer.
 }
 */
+
+// Use of this outside of a class.
+/*
+print this; // [line 17] Error at 'this': Can't use 'this' outside of a class.
+*/

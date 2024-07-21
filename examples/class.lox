@@ -1,0 +1,22 @@
+class Bacon {
+  eat() {
+    print "Crunch crunch crunch!";
+  }
+}
+
+Bacon().eat(); // Prints "Crunch crunch crunch!".
+
+class Cake {
+  init(flavor) {
+    this.flavor = flavor;
+  }
+
+  taste() {
+    print "The " + this.flavor + " cake is delicious!";
+  }
+}
+
+var cake = Cake("Fruit");
+cake.taste(); // Prints "The Fruit cake is delicious!".
+cake.flavor = "German chocolate";
+cake.taste(); // Prints "The German chocolate cake is delicious!".
